@@ -1,0 +1,7 @@
+v1.0.25
+
+- Fix (fondamental): crash silencieux de l'agent au démarrage sur Java 8 (BootstrapMethodError / LambdaConversionException).
+  Cause: lambdas/invokedynamic dans ModuleManager sous certains classloaders -> receiver type mismatch.
+  Correction: suppression de la lambda dans le thread keybinds (Runnable classique) => agent démarre et répond.
+
+- Aucun changement côté runtime (toujours Temurin 8u482).
