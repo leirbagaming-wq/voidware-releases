@@ -1,0 +1,9 @@
+v1.0.28
+
+- Fix: Java UI updater now checks the public manifest (voidware-releases) instead of Voidvoidware.
+  This prevents being stuck on old embedded agent build 105.
+
+- Change (requested): removed settings persistence (no auto load/save/replay settings.json).
+  Launcher now starts clean each time; only manual changes apply.
+
+- Keeps v1.0.27 slider debounce.
