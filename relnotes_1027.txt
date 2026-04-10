@@ -1,0 +1,5 @@
+v1.0.27
+
+- Fix: sliders now debounce applySettings (prevents command backlog).
+  Before: dragging/scrolling the slider spammed dozens of MOD set commands; the effect applied progressively.
+  Now: UI sends only the final value after ~120ms inactivity (or immediately on enable).
