@@ -1,0 +1,10 @@
+v1.0.26
+
+- Perf: restore settings now uses fire-and-forget batching (no per-command wait) + single STATUS sync.
+  This removes the ~13s delay (33 cmds) after injection.
+
+- Fix: AimAssist yaw-only behaving randomly (pitch going up/down).
+  Cause: on some modded clients, rotationYaw/rotationPitch fields can be swapped by layout heuristics.
+  Fix: validate rotation fields at runtime with a tiny write-test and swap if inverted.
+
+- Internal: DebugTrace disabled by default (enable with -Dvoidware.debugtrace=true).
