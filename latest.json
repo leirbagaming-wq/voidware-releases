@@ -1,7 +1,7 @@
 {
   "version": "1.0.29",
   "downloadUrl": "https://github.com/leirbagaming-wq/voidware-releases/releases/download/v1.0.29/update_lite_1029.zip",
-  "sha256": "9a5d113fb19eaf0a4035b1fd61dd54fea64057fdb5a89e395a8eff3ab30b36fa",
+  "sha256": "f2bffe2ca93120c000c27eb831e976409944a400fdd253d63b80f5039d559a3e",
   "runtimeUrl": "https://github.com/leirbagaming-wq/voidware-releases/releases/download/v1.0.24/runtime_1024.zip",
   "runtimeSha256": "6dfdb4373c93870ccc0a8f43be6d9a6847c185b94a5286f7d509986bbf4b0b32",
   "runtimeVersion": "temurin8u482"
