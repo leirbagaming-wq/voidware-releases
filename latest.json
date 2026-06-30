@@ -1,7 +1,7 @@
 {
-  "version": "2.0",
+  "version": "2.0-hotfix1",
   "downloadUrl": "https://github.com/leirbagaming-wq/voidware-releases/releases/download/v2.0/update.zip",
-  "sha256": "DCCD770AC01A6A530C4A736D3B6D8615C24B455CB332BDE608648FF2FEBA8F9A",
+  "sha256": "A8574C5435F0B865767187FFA7F19601976CCFCA88C87A39DFD491358B05D98E",
   "runtimeUrl": "https://github.com/leirbagaming-wq/voidware-releases/releases/download/v1.0.24/runtime_1024.zip",
   "runtimeSha256": "6dfdb4373c93870ccc0a8f43be6d9a6847c185b94a5286f7d509986bbf4b0b32",
   "runtimeVersion": "temurin8u482"
